@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seattle Seahawks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css"> <!-- Link to your custom styles.css -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logoss.png" alt="Seattle Seahawks Logo" style="height: 40px;"> Seattle Seahawks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#roster">Roster</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Go Seahawks!</h1>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container content">
+        <h2 id="history">Team History</h2>
+        <p>The Seattle Seahawks, established in 1974, are a professional football team based in Seattle, Washington. They compete in the NFL as part of the NFC West division.</p>
+
+        <h3>Achievements</h3>
+        <ul class="list">
+            <li><span class="icon"><img src="images/trophy.jpg" alt="Trophy Icon"></span>Super Bowl Champions: 2013</li>
+            <li><span class="icon"><img src="images/football.avif" alt="Football Icon"></span>Conference Championships: 3</li>
+            <li><span class="icon"><img src="images/star.jpg" alt="Star Icon"></span>Division Titles: 11</li>
+        </ul>
+
+        <h2 id="roster">Current Roster</h2>
+        <p>The team boasts talented players like Geno Smith (#7), DK Metcalf (#14), and Kenneth Walker III (#9).</p>
+
+        <!-- YouTube Embed -->
+        <h3>Highlights</h3>
+        <a href="https://www.youtube.com/watch?v=vFPrJbCbKjc" target="_blank">
+            <img src="images/LOB.jpg" alt="Seahawks Highlights" style="width: 560px; height: 315px;">
+        </a>
+        <p>Click the image above to watch the highlights on YouTube.</p>
+
+        <!-- Nested List -->
+        <h3>Fan Favorites</h3>
+        <ol>
+            <li>Top Players
+                <ul>
+                    <li>Russell Wilson</li>
+                    <li>Marshawn Lynch</li>
+                </ul>
+            </li>
+            <li>Top Moments
+                <ul>
+                    <li>The "Beast Quake" Run</li>
+                    <li>2013 Super Bowl Victory</li>
+                </ul>
+            </li>
+        </ol>
+
+       <!-- Tableau Visualization -->
+<h3>Interactive Visualization</h3>
+<div class='tableauPlaceholder' id='viz1734304244903' style='position: relative'>
+    <noscript>
+        <a href='#'>
+            <img alt='Seattle Seahawks ' src='https://public.tableau.com/static/images/se/seattlestats/SeattleSeahawks/1_rss.png' style='border: none' />
+        </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='seattlestats&#47;SeattleSeahawks' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/se/seattlestats/SeattleSeahawks/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+    </object>
+</div>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1734304244903');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '100%';  /* Ensure it takes up full width */
+    vizElement.style.maxWidth = '1200px';  /* Set a max width to prevent it from getting too wide */
+    vizElement.style.height = '600px';  /* Increase height for a better view */
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+        <!-- Navigation Link -->
+        <p><a href="index.html">Back to Home</a></p>
+        <p><a href="snake.html">Snake Game</a></p> <!-- Link to Snake Game page -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
